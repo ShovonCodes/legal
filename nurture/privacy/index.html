@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nurture Privacy Policy</title>
+<meta name="description" content="Privacy policy for Nurture, a plant care reminder app.">
+<style>
+  :root {
+    --leaf: #6E9A6E;
+    --leaf-deep: #2F5A3A;
+    --leaf-soft: #DCE9D9;
+    --bg: #FAF7F1;
+    --card: #FFFFFF;
+    --ink: #1B2A1F;
+    --ink-2: #3F4D44;
+    --muted: #5F6E66;
+    --border: #ECEAE3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --leaf: #86B086;
+      --leaf-deep: #C7DCC7;
+      --leaf-soft: #2A3A2D;
+      --bg: #161A14;
+      --card: #1F2419;
+      --ink: #ECEFE6;
+      --ink-2: #C1C9BD;
+      --muted: #8B958A;
+      --border: #3A4234;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink-2);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 22px 80px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 24px; margin-bottom: 36px; }
+  .mark { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .mark span { font-weight: 700; color: var(--leaf-deep); font-size: 18px; letter-spacing: -0.01em; }
+  .dot { width: 40px; height: 40px; border-radius: 20px; background: var(--leaf-soft); display: grid; place-items: center; flex: none; }
+  h1 { font-size: clamp(28px, 5vw, 36px); margin: 0 0 8px; color: var(--ink); letter-spacing: -0.02em; line-height: 1.15; }
+  .updated { margin: 0; color: var(--muted); font-size: 15px; }
+  h2 { font-size: 20px; margin: 40px 0 10px; color: var(--ink); letter-spacing: -0.01em; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 9px; }
+  li::marker { color: var(--leaf); }
+  strong { color: var(--ink); }
+  a { color: var(--leaf-deep); }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin: 22px 0; }
+  .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+  footer { margin-top: 52px; padding-top: 22px; border-top: 1px solid var(--border); color: var(--muted); font-size: 15px; }
+  footer a { color: var(--leaf-deep); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="mark">
+      <div class="dot">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6E9A6E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14Z"/><path d="M5 19c4-4 8-6 12-8"/>
+        </svg>
+      </div>
+      <span>Nurture</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated 4 August 2026</p>
+  </header>
+
+  <p>Nurture is a plant care reminder app. This page explains what the app saves, where it's kept, and how you can delete it. It covers the Nurture mobile app only.</p>
+
+  <h2>What Nurture saves</h2>
+
+  <p><strong>Your account details.</strong> You sign in with Google, and Nurture receives your name, email address and profile picture from that account. A service called Clerk handles the sign-in. Your Google password never reaches Nurture.</p>
+
+  <p><strong>The plants you add.</strong> For each plant we save the nickname you gave it, the species you picked, the room you put it in, and the dates you marked it watered. If the plant isn't in our built-in list, we also save the name and watering interval you typed.</p>
+
+  <p><strong>Your reminder settings.</strong> The time of day you picked, your time zone, whether reminders are switched on, and a few markers that keep track of your watering streak.</p>
+
+  <p><strong>Photos you add.</strong> When you attach a photo to a plant, Nurture shrinks it first (up to 1024 pixels on the longest side, saved as a JPEG) and uploads only that smaller copy. Your original photo stays on your phone.</p>
+
+  <h2>What Nurture doesn't collect</h2>
+
+  <div class="card">
+    <ul>
+      <li><strong>No analytics or tracking.</strong> There's no analytics code in the app, no advertising ID, and no third party watching what you do.</li>
+      <li><strong>No ads.</strong> We don't show ads, and we never sell or share your information for advertising.</li>
+      <li><strong>No location.</strong> Nurture never asks where you are and never records it.</li>
+      <li><strong>No contacts, microphone or audio.</strong> Audio recording is switched off in the app itself.</li>
+      <li><strong>No push notification tokens.</strong> Your reminders are scheduled on your own phone, so nothing about them is sent to a server.</li>
+    </ul>
+  </div>
+
+  <p>The app asks for camera or photo library access only at the moment you choose to add a photo, and it uses just the picture you pick.</p>
+
+  <h2>How your photos are kept safe</h2>
+
+  <p>Your photos are stored privately. They aren't reachable from the open web, and nobody can find them by guessing an address. When the app needs to show one of your photos, it asks for a temporary link that lasts about an hour and works only while you're signed in.</p>
+
+  <h2>Where your information is kept</h2>
+
+  <p>Two companies store data on our behalf:</p>
+
+  <ul>
+    <li><strong>Clerk</strong> takes care of Google sign-in and keeps you signed in.</li>
+    <li><strong>Supabase</strong> hosts the database with your plants and settings, along with the private storage that holds your photos.</li>
+  </ul>
+
+  <p>Both of them check who is asking on every single request, so only your own signed-in session can read your records and your photos.</p>
+
+  <h2>How long we keep it, and how to delete it</h2>
+
+  <p>We keep your information until you delete it. You can do that whenever you like:</p>
+
+  <ul>
+    <li>Remove a single plant, or just its photo, from that plant's screen in the app.</li>
+    <li>Remove <strong>everything</strong> by going to Settings and choosing Delete account. That clears your plants, your watering history, your reminder settings and your photos.</li>
+  </ul>
+
+  <p>Deleting your account happens straight away, and it can't be undone.</p>
+
+  <h2>Children</h2>
+
+  <p>Nurture isn't built for children under 13, and we don't knowingly collect information from them.</p>
+
+  <h2>Changes to this policy</h2>
+
+  <p>If we change this policy, the new version goes on this page and the date at the top changes with it.</p>
+
+  <h2>Get in touch</h2>
+
+  <p>If you have a question about this policy or about your data, email <a href="mailto:shovoncodes.apps@gmail.com">shovoncodes.apps@gmail.com</a> and we'll help.</p>
+
+  <footer>
+    <a href="../terms/">Terms of Service</a> · Nurture
+  </footer>
+
+</div>
+</body>
+</html>
