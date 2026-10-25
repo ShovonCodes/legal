@@ -5,29 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tuku Privacy Policy</title>
 <meta name="description" content="Privacy policy for Tuku, a baby care app for parents.">
+<meta name="theme-color" content="#17796b">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/icon-192.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap">
 <style>
   :root {
-    --leaf: #6E9A6E;
-    --leaf-deep: #2F5A3A;
-    --leaf-soft: #DCE9D9;
-    --bg: #FAF7F1;
-    --card: #FFFFFF;
-    --ink: #1B2A1F;
-    --ink-2: #3F4D44;
-    --muted: #5F6E66;
-    --border: #ECEAE3;
+    --brand: #17796b;
+    --accent: #d97b2c;
+    --bg: #faf6ee;
+    --card: #fffdf8;
+    --ink: #2b3330;
+    --ink-2: #4c5652;
+    --muted: #6b756f;
+    --border: #e4ded0;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --leaf: #86B086;
-      --leaf-deep: #C7DCC7;
-      --leaf-soft: #2A3A2D;
-      --bg: #161A14;
-      --card: #1F2419;
-      --ink: #ECEFE6;
-      --ink-2: #C1C9BD;
-      --muted: #8B958A;
-      --border: #3A4234;
+      --brand: #a9d6cc;
+      --accent: #f0a05a;
+      --bg: #222826;
+      --card: #2b3330;
+      --ink: #fffdf8;
+      --ink-2: #ddd8cc;
+      --muted: #c9c3b4;
+      --border: #3c4541;
     }
   }
   * { box-sizing: border-box; }
@@ -35,28 +40,28 @@
     margin: 0;
     background: var(--bg);
     color: var(--ink-2);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: "Hind Siliguri", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 17px;
-    line-height: 1.65;
+    line-height: 1.7;
   }
   .wrap { max-width: 760px; margin: 0 auto; padding: 48px 22px 80px; }
   header { border-bottom: 1px solid var(--border); padding-bottom: 24px; margin-bottom: 36px; }
   .mark { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
-  .mark span { font-weight: 700; color: var(--leaf-deep); font-size: 18px; letter-spacing: -0.01em; }
-  .dot { width: 40px; height: 40px; border-radius: 20px; background: var(--leaf-soft); display: grid; place-items: center; flex: none; }
-  h1 { font-size: clamp(28px, 5vw, 36px); margin: 0 0 8px; color: var(--ink); letter-spacing: -0.02em; line-height: 1.15; }
+  .mark img { width: 44px; height: 44px; border-radius: 22%; flex: none; }
+  .mark span { font-weight: 700; color: var(--brand); font-size: 22px; line-height: 1; }
+  h1 { font-size: clamp(28px, 5vw, 36px); margin: 0 0 8px; color: var(--ink); line-height: 1.2; }
   .updated { margin: 0; color: var(--muted); font-size: 15px; }
-  h2 { font-size: 20px; margin: 40px 0 10px; color: var(--ink); letter-spacing: -0.01em; }
+  h2 { font-size: 21px; margin: 40px 0 10px; color: var(--ink); line-height: 1.4; }
   p { margin: 0 0 14px; }
   ul { margin: 0 0 16px; padding-left: 22px; }
   li { margin-bottom: 9px; }
-  li::marker { color: var(--leaf); }
-  strong { color: var(--ink); }
-  a { color: var(--leaf-deep); }
+  li::marker { color: var(--accent); }
+  strong { color: var(--ink); font-weight: 600; }
+  a { color: var(--brand); }
   .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin: 22px 0; }
   .card p:last-child, .card ul:last-child { margin-bottom: 0; }
   footer { margin-top: 52px; padding-top: 22px; border-top: 1px solid var(--border); color: var(--muted); font-size: 15px; }
-  footer a { color: var(--leaf-deep); }
+  footer a { color: var(--brand); }
 </style>
 </head>
 <body>
@@ -64,11 +69,7 @@
 
   <header>
     <div class="mark">
-      <div class="dot">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6E9A6E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M12 20s-7-4.35-7-10a4 4 0 0 1 7-2.65A4 4 0 0 1 19 10c0 5.65-7 10-7 10Z"/>
-        </svg>
-      </div>
+      <img src="../assets/icon-192.png" alt="" width="44" height="44">
       <span>Tuku</span>
     </div>
     <h1>Privacy Policy</h1>
